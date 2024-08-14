@@ -26,7 +26,7 @@ const Contacto = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className="w-full h-full flex flex-col gap-5 items-start border border-black p-5 background-gradiente rounded-lg shadow-lg">
+        <div className="w-full h-full flex flex-col gap-5 items-start p-5 background-gradiente rounded-lg shadow-lg">
           <div className="flex justify-center w-full text-center">
             <p className="text-4xl font-bold text-gradiente-2 text-center">
               Ponte en contacto con nosotros
@@ -110,8 +110,11 @@ const Contacto = () => {
                 </p>
               )}
             </div>
-            <Button type="submit" className="bg-[#7daa92] text-white">
-              Enviar
+            <Button
+              type="submit"
+              className="background-gradiente border font-semibold border-gray-400 py-2 rounded-full w-1/2 mx-auto text-white transition-transform transform hover:scale-105"
+            >
+              ENVIAR
             </Button>
           </form>
         </div>
