@@ -1,0 +1,64 @@
+.swiper-btns button {
+  color: #559271;
+  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 100%;
+  background-color: #e7e3d8;
+  box-shadow: 0px 4px 5px 0px #00000080;
+}
+
+.swiper-btns {
+  width: 99%;
+  justify-content: space-between;
+  z-index: 9999;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  height: 0%;
+}
+
+.background-gradiente {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 159, 144, 1) 0%,
+    rgba(86, 122, 102, 1) 35%,
+    rgba(51, 85, 60, 1) 100%
+  );
+}
+
+.border-gradiente {
+  border: 1px solid
+    linear-gradient(
+      90deg,
+      rgba(120, 159, 144, 1) 0%,
+      rgba(86, 122, 102, 1) 35%,
+      rgba(51, 85, 60, 1) 100%
+    );
+}
+
+/* Texto gradiante */
+.text-gradiente {
+  background: linear-gradient(
+    90deg,
+    rgba(120, 159, 144, 1) 0%,
+    rgba(86, 122, 102, 1) 35%,
+    rgba(51, 85, 60, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradiente-2 {
+  background: linear-gradient(
+    90deg,
+    rgba(86, 122, 102, 1) 35%,
+    rgb(118, 167, 140) 50%,
+    rgb(156, 203, 186) 75%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}
